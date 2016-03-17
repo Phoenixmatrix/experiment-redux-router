@@ -17,9 +17,12 @@
     "no-eq-null": 0,
     "no-undef": 2,
     "react/jsx-curly-spacing": [2, "never"],
+    "react/prefer-stateless-function": 0,
     "jsx-quotes": [2, "prefer-single"],
     "no-unused-expressions": 0,
-    "indent": [2, 2, {"SwitchCase": 0}]
+    "indent": [2, 2, {"SwitchCase": 0}],
+    "arrow-body-style": 0,
+    "react/prop-types": 0
   },
   "ecmaFeatures": {
     "modules": true,

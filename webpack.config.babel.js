@@ -28,7 +28,7 @@ const config = {
     extensions: ['', '.js', '.jsx', '.json']
   },
   plugins: [
-    new NpmInstallPlugin()
+    new NpmInstallPlugin({save: true})
   ]
 };
 
