@@ -1,0 +1,29 @@
+{
+  "name": "experiment-redux-router",
+  "version": "0.0.1",
+  "description": "just me musing on a router",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenixmatrix/experiment-redux-router.git"
+  },
+  "author": "fward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phoenixmatrix/experiment-redux-router/issues"
+  },
+  "homepage": "https://github.com/Phoenixmatrix/experiment-redux-router#readme",
+  "dependencies": {
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3",
+    "install": "^0.6.0",
+    "npm": "^3.8.1",
+    "npm-install-webpack-plugin": "^3.0.0"
+  }
+}
