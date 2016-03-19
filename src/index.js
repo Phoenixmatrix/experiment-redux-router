@@ -7,6 +7,8 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 import Application from './containers/Application';
 
+import router from './router';
+
 
 const store = createStore(
   rootReducer,

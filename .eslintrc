@@ -24,10 +24,13 @@
     "arrow-body-style": 0,
     "react/prop-types": 0
   },
-  "ecmaFeatures": {
+  parserOptions: {
+    "ecmaVersion": 6,
     "modules": true,
-    "generators": true,
-    "experimentalObjectRestSpread": true
+    "ecmaFeatures": {
+      "generators": true,
+      "experimentalObjectRestSpread": true
+    }
   },
   "globals": {
     "chai": true,
